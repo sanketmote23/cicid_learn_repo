@@ -19,6 +19,4 @@ jobs:
           username: ${{ vars.DOCHERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}      
 
-      - name: Docker Build
-
-build:
+    
