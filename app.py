@@ -1,4 +1,5 @@
 # this code is from shubham repo
+# flask app
 from flask import Flask, render_template
 app = Flask(__name__)
 
