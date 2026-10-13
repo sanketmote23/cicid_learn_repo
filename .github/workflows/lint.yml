@@ -15,3 +15,6 @@ jobs:
     # this will checkout/clone code automatically
       - name: Checkout/Clone the code
         uses: actions/checkout@v7
+   # This step will install the linting tool
+      - name: Install Linter
+        run: pip install ruff
